@@ -138,7 +138,9 @@ Linux pip install awscli
 
 
 1 create programatic ssmuser 
+
 1.1 aws configure
+
 2 attach ssm policy
 
 {
@@ -161,7 +163,9 @@ Linux pip install awscli
 }
 
 3 create IAM role con AmazonEC2RoleforSSM policy
+
 4 attach role to instance ( check AWS system manager ssm managed instances )
+
 5 Install the latest session manager plugin,
 
 Windows: https://s3.amazonaws.com/session-manager-downloads/plugin/latest/windows/SessionManagerPluginSetup.exe
