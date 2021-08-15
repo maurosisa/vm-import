@@ -137,8 +137,9 @@ Linux pip install awscli
 
 
 
-1.create programatic ssmuser / aws configure
-2.attach ssm policy
+1 create programatic ssmuser 
+1.1 aws configure
+2 attach ssm policy
 
 {
     "Version": "2012-10-17",
@@ -159,9 +160,9 @@ Linux pip install awscli
     ]
 }
 
-3.create IAM role con AmazonEC2RoleforSSM policy
-4.attach role to instance ( check AWS system manager ssm managed instances )
-5.Install the latest session manager plugin,
+3 create IAM role con AmazonEC2RoleforSSM policy
+4 attach role to instance ( check AWS system manager ssm managed instances )
+5 Install the latest session manager plugin,
 
 Windows: https://s3.amazonaws.com/session-manager-downloads/plugin/latest/windows/SessionManagerPluginSetup.exe
 
@@ -176,7 +177,7 @@ sudo yum install -y session-manager-plugin.rpm
 sudo systemctl status amazon-ssm-agent
 
 
-6. 
+6 
  
 # find the instance ID based on Tag Name
 INSTANCE_ID=$(aws ec2 describe-instances \
