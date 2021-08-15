@@ -13,6 +13,7 @@ bucket_name="vmma"
 vm_image_name="*****.vmdk"
 
 reference
+https://www.linuxvmimages.com/images/centos-8/
 https://docs.aws.amazon.com/vm-import/latest/userguide/vmie_prereqs.html#vmimport-role
 
 IMPORT 
