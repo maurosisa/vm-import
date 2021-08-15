@@ -6,6 +6,8 @@ aws ec2 describe-instances
 
 aws sts get-caller-identity
 
+aws ssm get-inventory
+
 aws sts  decode-authorization-message --encoded-message
 
 bucket_name="vmma"
